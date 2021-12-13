@@ -137,19 +137,18 @@ html, body {
 #about1 h1 {
     position: relative;
     justify-content: center;
-    top: 7%;
+    top: 6%;
     left: 25%;
     line-height: 100%;
-    font-size: 150px;
+    font-size: 130px;
 }
 #about1 h2 {
     position: relative;
     justify-content: center;
-    top: 7%;
-    bottom: 7%;
+    top: 4%;
     left: 25%;
     font-family: "GmarketSansMedium";
-    font-size: 90px;
+    font-size: 80px;
     line-height: 100%;
     letter-spacing: -10px;
 }
@@ -157,7 +156,7 @@ html, body {
     position: relative;
     font-size: 50px;
     left: 18vw;
-    top: 25%;
+    top: 15%;
     text-decoration: underline;
     text-underline-position:under;
     color: #09008b;
@@ -166,7 +165,7 @@ html, body {
     position: relative;
     font-size: 30px;
     left: 18vw;
-    top: 25%;
+    top: 15%;
 }
 
 #about2 {
@@ -175,20 +174,20 @@ html, body {
 #about2 h1 {
     position: relative;
     justify-content: center;
-    top: 7%;
+    top: 6%;
     left: 25%;
     line-height: 100%;
-    font-size: 150px;
+    font-size: 130px;
     animation: fadein 2s;
 }
 #about2 h2 {
     position: relative;
     justify-content: center;
-    top: 7%;
+    top: 4%;
     bottom: 7%;
     left: 25%;
     font-family: "GmarketSansMedium";
-    font-size: 90px;
+    font-size: 85px;
     line-height: 100%;
     letter-spacing: -10px;
     animation: fadein 2s;
@@ -196,7 +195,7 @@ html, body {
 #about2 h3 {
     position: relative;
     font-size: 50px;
-    left: 18vw;
+    left: 15vw;
     top: 25%;
     font-family: "GmarketSansBold";
     text-decoration: underline;
@@ -206,7 +205,7 @@ html, body {
 #about2 p {
     position: relative;
     font-size: 30px;
-    left: 18vw;
+    left: 15vw;
     top: 25%;
 }
 
@@ -225,7 +224,7 @@ html, body {
     position: relative;
     color: whitesmoke;
     font-size: 40px;
-    left: 45vw;
+    left: 38vw;
     text-align: right;
 }
 
