@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" href="blog_style.css" rel="stylesheet"/>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="http://fatlinesofcode.github.io/jquery.smoothwheel/src/jquery.smoothwheel.js"></script>
+    <script src="jquery.easeScroll.js"></script>
+    <title>EliSHA</title>
+</head>
+<body>
+    <div id="drawing_line">
+        <svg class="drawing_line_svg">
+          <circle class="drawing_line_circle" cx="0" cy="0" r="8"></circle>
+          <polyline class="drawing_line_polyline" points=""></polyline>
+        </svg>
+    </div>
+
+    <div class="title">
+        <h1>Blog.</h1>
+        <p>질문이나 문의는 이메일로 부탁드립니다.</p>
+    </div>
+
+    <!-- 글 검색 -->
+    <div id="search">
+
+    </div>
+
+    <!-- 리스트 게시판 -->
+    <div id="bloglist">
+    <table class="bloglist">
+        <colgroup>
+            <col width="100"/>
+            <col width="500"/>
+            <col width="100"/>
+            <col width="100"/>
+        </colgroup>
+        <thead>
+             <tr>
+                <th style="color: whitesmoke;">no</th>
+                <th style="color: whitesmoke;">title</th>
+                <th style="color: whitesmoke;">date</th>
+                <th style="color: whitesmoke;">writer</th>
+             </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="tdNo">001</td>
+                <td class="tdTitle"><a href="blog_001.html">테스트용 게시글입니다. 내용은 없습니다.</a> </td>
+                <td class="tdDate">2021-12-14</td>
+                <td class="tdName">김현조</td>
+             </tr>
+             <tr>
+                <td class="tdNo">002</td>
+                <td class="tdTitle"><a href="blog_001.html">테스트용 게시글입니다. 내용은 없습니다.</a> </td>
+                <td class="tdDate">2021-12-14</td>
+                <td class="tdName">김현조</td>
+             </tr>
+             <tr>
+                <td class="tdNo">003</td>
+                <td class="tdTitle"><a href="blog_001.html">테스트용 게시글입니다. 내용은 없습니다.</a> </td>
+                <td class="tdDate">2021-12-14</td>
+                <td class="tdName">김현조</td>
+             </tr>
+             <tr>
+                <td class="tdNo">004</td>
+                <td class="tdTitle"><a href="blog_001.html">테스트용 게시글입니다. 내용은 없습니다.</a> </td>
+                <td class="tdDate">2021-12-14</td>
+                <td class="tdName">김현조</td>
+             </tr>
+             <tr>
+                <td class="tdNo">005</td>
+                <td class="tdTitle"><a href="blog_001.html">테스트용 게시글입니다. 내용은 없습니다.</a> </td>
+                <td class="tdDate">2021-12-14</td>
+                <td class="tdName">김현조</td>
+             </tr>
+         </tbody>
+         <tfoot>
+            <tr>
+                <td colspan="5" class="tdFoot"> [prev]
+                <a>1</a>
+                 [next]
+            </tr>
+         </tfoot>
+    </table>
+    </div>
+
+    <!-- 햄버거 메뉴 -->
+    <input type="checkbox" id="menuicon">
+    <label for="menuicon">
+        <span></span>
+        <span></span>
+        <span></span>
+    </label>
+    <div class="sidebar">
+        <div class="inmenu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="project.html">Project</a></li>
+        </ul>
+        </div>
+    </div>
+
+</body>
+<script src="main.js"></script>
+<script src="blog_js.js"></script>
+</html>
