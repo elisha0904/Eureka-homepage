@@ -83,6 +83,28 @@ html {
 
 
 /* ======================================= */
+
+.text_box {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.text_box span {
+    font-size: 3rem;
+}
+
+.blink {
+    animation: blink 0.5s infinite;
+    font-size: 4rem;
+}
+  
+@keyframes blink {
+    to {
+      opacity: 0;
+    }
+}
+
+
 /* ======================================= */
 
 ::-webkit-scrollbar {
@@ -101,14 +123,14 @@ html {
 
 .banner {
     display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-image: url(water.png);
+    background-position: center;
     justify-content: center;
     height: 500px;
-    padding-top: 0%;
-    padding-bottom: 20px;
-}
-
-.banner img {
-    position: relative;
+    padding-top: 0px;
+    padding-bottom: 10px;
 }
 
 .bar-index {
