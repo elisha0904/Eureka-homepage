@@ -6,15 +6,6 @@
     font-family: 'NanumSquare', sans-serif !important;
 }
 
-@import url(Machineat_Demo.ttf);
-@font-face {
-    font-family: 'Machineat_Demo';
-    src: url(Machineat_Demo.ttf);
-}
-.Machineat {
-    font-family: 'Machineat_Demo';
-}
-
 /* G산스 웹폰트 */
 @font-face {
     font-family: 'GmarketSansBold';
@@ -83,28 +74,6 @@ html {
 
 
 /* ======================================= */
-
-.text_box {
-    font-size: 3rem;
-    text-align: center;
-}
-
-.text_box span {
-    font-size: 3rem;
-}
-
-.blink {
-    animation: blink 0.5s infinite;
-    font-size: 4rem;
-}
-  
-@keyframes blink {
-    to {
-      opacity: 0;
-    }
-}
-
-
 /* ======================================= */
 
 ::-webkit-scrollbar {
@@ -119,18 +88,6 @@ html {
 
 .logo {
     position: relative;
-}
-
-.banner {
-    display: flex;
-    flex-direction: column;
-    background-repeat: no-repeat;
-    background-image: url(water.png);
-    background-position: center;
-    justify-content: center;
-    height: 500px;
-    padding-top: 0px;
-    padding-bottom: 10px;
 }
 
 .bar-index {
